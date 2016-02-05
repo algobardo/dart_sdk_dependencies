@@ -1,0 +1,4 @@
+name: compiler
+dependencies:
+  _internal:
+    path: ../_internal

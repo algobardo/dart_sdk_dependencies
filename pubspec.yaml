@@ -1,0 +1,9 @@
+name: dart_sdk_dependencies
+description: Dependencies on the dart sdk as of 1.12.2
+dependencies:
+  js_ast:
+    path: pkg/js_ast
+  compiler:
+    path: pkg/compiler
+  analyzer2dart:
+    path: pkg/analyzer2dart

@@ -1,0 +1,3 @@
+name: analyzer2dart
+dependencies:
+  analyzer: ">=0.26.1-alpha.0 <0.27.0"
