@@ -8,7 +8,7 @@ RUN unzip dart-sdk.zip
 RUN rm dart-sdk.zip && apt-get clean
 
 env PATH "$HOME/.pub-cache/bin:$HOME/dart-sdk/bin:$PATH"
-env DART_SDK "$(pwd)/dart-sdk"
+env DART_SDK "$HOME/dart-sdk"
 
 RUN echo $PATH
 RUN pub global activate tuneup
