@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t algobardo/dart:1.12.2 .
+docker push algobardo/dart:1.12.2
